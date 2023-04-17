@@ -59,7 +59,7 @@ async function handleInput(event) {
 
     if (!canMoveUp() && !canMoveDown() && !canMoveLeft() && !canMoveRight()) {
         await newTile.waitForAnimationEnd()
-        alert("Tra again")
+        alert("Try again")
     }
 
     setUpInputOnce()
